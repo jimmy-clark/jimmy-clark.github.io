@@ -1,0 +1,17 @@
+.navbar {
+background-color: #7EA2AA;
+font-family: 'Big Shoulders Display', cursive;  
+}
+.navbar > .navbar-collapse > .navbar-nav a {
+    color: white;
+    
+}
+a:hover {
+    color: red;
+}
+.navbar > .navbar-collapse > .navbar-nav a:hover {
+    color: red;
+    
+}
+/* font-family: 'Big Shoulders Display', cursive;
+font-family: 'Bungee', cursive; */
