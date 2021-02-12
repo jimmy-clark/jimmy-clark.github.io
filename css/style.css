@@ -5,8 +5,12 @@ font-family: 'Big Shoulders Display', cursive;
     color: white;
 }
 .navbar > .navbar-collapse > .navbar-nav a:hover {
-    color: gray;   
+    color: gray;  
 }
+.fa-angle-double-down {
+color: white;
+}
+
 .title_jumbotron {
     text-align: center;
     background: none;
