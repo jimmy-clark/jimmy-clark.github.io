@@ -1,14 +1,9 @@
-
-
 .navbar {
-
 font-family: 'Big Shoulders Display', cursive;  
 }
 .navbar > .navbar-collapse > .navbar-nav a {
     color: white;
-    
 }
-
 .navbar > .navbar-collapse > .navbar-nav a:hover {
     color: gray;   
 }
@@ -19,28 +14,20 @@ font-family: 'Big Shoulders Display', cursive;
     background-position: center;
     background-size: 50%  
 }
-.title_jumbotron > .container p{
+.title_jumbotron > .container p {
     font-family: 'Big Shoulders Display', cursive;  
 }
 .title_jumbotron > .container h1 {
     font-family: 'Bungee', cursive;
 }
-/* font-family: 'Big Shoulders Display', cursive;
-font-family: 'Bungee', cursive; */
+
 body, html {
     height: 100%;
   }
-  
   .parallax { 
-    /* The image used */
-    background-image: url(../imageedit_1_3879828927.png);
+    background-image: url(../assets/imageedit_1_3879828927.png);
     background-color: black;
-   
-  
-    /* Full height */
     height: 100%; 
-  
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
