@@ -1,3 +1,4 @@
+
 .navbar {
 background-color: #7EA2AA;
 font-family: 'Big Shoulders Display', cursive;  
@@ -10,8 +11,18 @@ a:hover {
     color: red;
 }
 .navbar > .navbar-collapse > .navbar-nav a:hover {
-    color: red;
+    color: gray;
     
+}
+.title_jumbotron {
+    text-align:center;
+    background-image: url();
+}
+.title_jumbotron > .container p{
+    font-family: 'Big Shoulders Display', cursive;  
+}
+.title_jumbotron > .container h1 {
+    font-family: 'Bungee', cursive;
 }
 /* font-family: 'Big Shoulders Display', cursive;
 font-family: 'Bungee', cursive; */
