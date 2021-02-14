@@ -1,32 +1,9 @@
-.navbar {
-font-family: 'Big Shoulders Display', cursive;  
-}
-.navbar > .navbar-collapse > .navbar-nav a {
-    color: white;
-}
-.navbar > .navbar-collapse > .navbar-nav a:hover {
-    color: gray;  
-}
-.fa-angle-double-down {
-color: white;
-}
-
-.title_jumbotron {
-    text-align: center;
-    background: none;
-    color: white;
-    background-position: center;
-    background-size: 50%  
-}
-.title_jumbotron > .container p {
-    font-family: 'Big Shoulders Display', cursive;  
-}
-.title_jumbotron > .container h1 {
-    font-family: 'Bungee', cursive;
-}
 
 body, html {
     height: 100%;
+    color: white;
+    font-family: 'Big Shoulders Display', cursive;  
+    text-align: center;
   }
   .parallax { 
     background-image: url(../assets/imageedit_1_3879828927.png);
@@ -37,3 +14,53 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
   }
+#currentpage > a {
+color: #113662;
+    font-weight: bold;
+}
+.navbar > .navbar-collapse > .navbar-nav a {
+    color: white;
+    font-size: 2em;
+}
+.navbar > .navbar-collapse > .navbar-nav a:hover {
+    color: #8fa28c;  
+}
+.fa-angle-double-down {
+color: white;
+}
+
+.title_jumbotron {
+    text-align: center;
+    background: none;
+   
+    background-position: center;
+    background-size: 50%  
+}
+
+.title_jumbotron > .container h1 {
+    font-family: 'Bungee', cursive;
+}
+ 
+  .flex-grid-thirds {
+    display: flex;
+    justify-items: center;
+    background-color: gray;
+    opacity: 0.8;
+  }
+
+  .flex-grid-thirds > .col {
+    width: 32%;
+  }
+  .ennegram_section > h1 {
+font-size: 5em;
+  }
+  @media (max-width: 400px) {
+    .flex-grid-thirds {
+      display: block;
+    }
+    .flex-grid-thirds > .col {
+        width: 100%;
+        margin: 0 0 10px 0;
+      }
+    }
+  
