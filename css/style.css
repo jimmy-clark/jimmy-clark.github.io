@@ -74,20 +74,33 @@ font-size: 5em;
     border-radius: 1rem;
   }
 
+  .experience {
+    
+  }
+
   /* CSS for Footer */
-  .footer {
+  #footer {
     display: flex;
-    position: absolute;
+    position: fixed;
+    left: 0;
     bottom: 0;
-    height: 100px;
+    color: white;
+    text-align: center;
+    align-content: center;
+    padding: 0px;
+    max-width: 100%;
+    justify-content: space-evenly;
+    size: 700px;
+  
   }
   footer > a {
     color: #8fa28c; 
   
   }
-  footer >.container {
-    align-self: flex-end;
-    align-content: flex-end;
-    position: absolute;
+
+  @media (max-width: 400px) {
+   #footer {
+    position: relative;
+   }
   }
  
