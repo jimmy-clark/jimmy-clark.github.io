@@ -1,106 +1,116 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;500;700&display=swap');
 
-body, html {
-    height: 100%;
-    color: white;
-    font-family: 'Big Shoulders Display', cursive;  
-    text-align: center;
-  }
-  .parallax { 
-    background-image: url(../assets/imageedit_1_3879828927.png);
-    background-color: black;
-    height: 100%; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-#currentpage > a {
-  color: #8fa28c; 
-}
-.navbar > .navbar-collapse > .navbar-nav a {
-    color: white;
-    font-size: 2em;
-}
-.navbar > .navbar-collapse > .navbar-nav a:hover {
-    color: #8fa28c;  
-}
-.fa-angle-double-down {
-color: white;
-}
-.jumbotron {
-    margin-bottom: 0rem;
-}
-.title_jumbotron {
-    text-align: center;
-    background: none;
-   
-    background-position: center;
-    background-size: 50%  
+body,
+html {
+  height: 100%;
+  color: white;
+  font-family: 'Big Shoulders Display', cursive;
+  text-align: center;
 }
 
-.title_jumbotron > .container h1 {
+.parallax {
+  background-image: url(../assets/imageedit_1_3879828927.png);
+  background-color: black;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#currentpage>a {
+  color: #8fa28c;
+}
+
+.navbar>.navbar-collapse>.navbar-nav a {
+  color: white;
+  font-size: 2em;
+}
+
+.navbar>.navbar-collapse>.navbar-nav a:hover {
+  color: #8fa28c;
+}
+
+.fa-angle-double-down {
+  color: #8fa28c;
+  ;
+}
+
+.jumbotron {
+  margin-bottom: 0rem;
+}
+
+.title_jumbotron {
+  text-align: center;
+  background: none;
+  background-position: center;
+  background-size: 50%;
+  padding: 17px 17px;
+}
+
+.title_jumbotron>.container h1 {
   font-size: 5rem;
   font-weight: 700;
 
 }
- /* CSS for Homepage Body */
+
+/* CSS for Homepage Body */
+.flex-grid-thirds {
+  display: flex;
+  justify-items: center;
+}
+
+.flex-grid-thirds>.col {
+  width: 32%;
+}
+
+.ennegram_section>h1 {
+  font-size: 5em;
+  display: flex;
+
+}
+
+@media (max-width: 400px) {
   .flex-grid-thirds {
-    display: flex;
-    justify-items: center;
-    background-color: gray;
-    opacity: 0.8;
+    display: block;
   }
 
-  .flex-grid-thirds > .col {
-    width: 32%;
+  .flex-grid-thirds>.col {
+    width: 100%;
+    margin: 0 0 10px 0;
   }
-  .ennegram_section > h1 {
-font-size: 5em;
-  }
-  @media (max-width: 400px) {
-    .flex-grid-thirds {
-      display: block;
-    }
-    .flex-grid-thirds > .col {
-        width: 100%;
-        margin: 0 0 10px 0;
-      }
-    }
+}
 
-  .grey-background-bubble{
-    background-color: gray;
-    opacity: 0.8;
-    border-radius: 1rem;
-  }
+.grey-background-bubble {
+  background-color: gray;
+  opacity: 0.8;
+  border-radius: 1rem;
+}
 
-  .experience {
-    
-  }
 
-  /* CSS for Footer */
+/* CSS for Footer */
+#footer {
+  display: flex;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  color: white;
+  text-align: center;
+  align-content: center;
+  padding: 0px;
+  max-width: 100%;
+  justify-content: space-evenly;
+  size: 700px;
+
+}
+
+footer>a {
+  color: #8fa28c;
+
+}
+
+@media (max-width: 400px) {
   #footer {
-    display: flex;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    color: white;
-    text-align: center;
-    align-content: center;
-    padding: 0px;
-    max-width: 100%;
-    justify-content: space-evenly;
-    size: 700px;
-  
-  }
-  footer > a {
-    color: #8fa28c; 
-  
-  }
-
-  @media (max-width: 400px) {
-   #footer {
     position: relative;
-   }
   }
- 
+}
