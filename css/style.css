@@ -64,7 +64,11 @@ html {
   width: 32%;
 }
 
-.ennegram_section>h1 {
+.ennegram_section {
+  height: 50%;
+  vertical-align: middle;
+}
+.ennegram_section > h1 {
   font-size: 5em;
   display: flex;
 
@@ -91,7 +95,7 @@ html {
 /* CSS for Footer */
 #footer {
   display: flex;
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   color: white;
@@ -101,6 +105,7 @@ html {
   max-width: 100%;
   justify-content: space-evenly;
   size: 700px;
+  margin-top: 1rem;
 
 }
 
